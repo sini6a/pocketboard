@@ -839,6 +839,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Max Power Consumption: 32mA w backlight"
+		(exclude_from_sim no)
+		(at 121.412 129.032 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e53c3d8-16af-4f09-a1ea-e49052898325")
+	)
 	(text "FPC Connector for LCD\nDatasheet: https://www.seacomp.com/sites/default/files/datasheets/DT010ATFT-Rev1_2-Displaytech-Spec.pdf"
 		(exclude_from_sim no)
 		(at 149.86 73.66 0)
@@ -848,6 +858,16 @@
 			)
 		)
 		(uuid "d345fe47-db9a-4ffc-b0f0-e8268346ce84")
+	)
+	(text "https://lcsc.com/datasheet/lcsc_datasheet_2410121611_Newvisio-N096-1608TBBIG11-H13_C2890616.pdf"
+		(exclude_from_sim no)
+		(at 152.654 132.842 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f36ebc0e-8734-4de3-905f-b7c49fbba051")
 	)
 	(junction
 		(at 139.7 120.65)
@@ -1463,7 +1483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4305f1a5-dcf7-4c34-a47c-125687342118")
-		(property "Reference" "#PWR0504"
+		(property "Reference" "#PWR504"
 			(at 139.7 128.27 0)
 			(effects
 				(font
@@ -1514,7 +1534,7 @@
 		(instances
 			(project "pocketboard"
 				(path "/bbf42bb3-a553-455a-82cc-5281935de3af/436c300b-cf41-4d3c-817a-13458950e75f"
-					(reference "#PWR0504")
+					(reference "#PWR504")
 					(unit 1)
 				)
 			)
@@ -1530,7 +1550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cbaaa39-e070-4099-8d37-e66a3cc7e967")
-		(property "Reference" "#PWR0501"
+		(property "Reference" "#PWR501"
 			(at 139.7 115.57 0)
 			(effects
 				(font
@@ -1581,7 +1601,7 @@
 		(instances
 			(project "pocketboard"
 				(path "/bbf42bb3-a553-455a-82cc-5281935de3af/436c300b-cf41-4d3c-817a-13458950e75f"
-					(reference "#PWR0501")
+					(reference "#PWR501")
 					(unit 1)
 				)
 			)
@@ -1709,7 +1729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8de6edab-afbf-4723-8fd0-525d9d8bccca")
-		(property "Reference" "#PWR0502"
+		(property "Reference" "#PWR502"
 			(at 182.88 120.65 0)
 			(effects
 				(font
@@ -1759,7 +1779,7 @@
 		(instances
 			(project ""
 				(path "/bbf42bb3-a553-455a-82cc-5281935de3af/436c300b-cf41-4d3c-817a-13458950e75f"
-					(reference "#PWR0502")
+					(reference "#PWR502")
 					(unit 1)
 				)
 			)
@@ -1775,7 +1795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7a7aa35-6ac9-4542-9661-9c1d599461f1")
-		(property "Reference" "#PWR0503"
+		(property "Reference" "#PWR503"
 			(at 111.76 128.27 0)
 			(effects
 				(font
@@ -1826,7 +1846,7 @@
 		(instances
 			(project "pocketboard"
 				(path "/bbf42bb3-a553-455a-82cc-5281935de3af/436c300b-cf41-4d3c-817a-13458950e75f"
-					(reference "#PWR0503")
+					(reference "#PWR503")
 					(unit 1)
 				)
 			)

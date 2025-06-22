@@ -1,3 +1,5 @@
 (sym_lib_table
+  (version 7)
   (lib (name "handipi_kb-rescue")(type "Legacy")(uri "${KIPRJMOD}/handipi_kb-rescue.lib")(options "")(descr ""))
+  (lib (name "Pocketboard")(type "KiCad")(uri "${KIPRJMOD}/assets/libraries/Pocketboard.kicad_sym")(options "")(descr ""))
 )
