@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "handipi_kb-rescue")(type "Legacy")(uri "${KIPRJMOD}/handipi_kb-rescue.lib")(options "")(descr ""))
   (lib (name "Pocketboard")(type "KiCad")(uri "${KIPRJMOD}/assets/libraries/Pocketboard.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX17048")(type "KiCad")(uri "${KIPRJMOD}/assets/libraries/MAX17048.kicad_sym")(options "")(descr ""))
 )

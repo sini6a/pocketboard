@@ -1,0 +1,124 @@
+(footprint "2.4GHz-meander-antenna-v2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.1 6.9 0)
+		(unlocked yes)
+		(layer "Eco2.User")
+		(uuid "aa6571e1-94ff-48da-9bf2-46e596321da1")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Value" "2.4GHz-meander-antenna-v2"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af4c2316-f255-4ff5-bcaf-d87ddae13a3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4eba77c8-ac59-4e65-b855-a536e9664835")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3140a81d-461c-4cca-acff-309f4d6dca74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -10 0)
+		(size 0.254 0.254)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_line
+				(start 0 0)
+				(end 0 5.727207)
+				(width 0.254)
+			)
+			(gr_line
+				(start 0 5.727207)
+				(end 2.217801 5.727207)
+				(width 0.254)
+			)
+			(gr_line
+				(start 2.217801 5.727207)
+				(end 2.217801 2.783601)
+				(width 0.254)
+			)
+			(gr_line
+				(start 2.217801 2.783601)
+				(end 4.275201 2.783601)
+				(width 0.254)
+			)
+			(gr_line
+				(start 4.275201 5.727207)
+				(end 4.275201 2.783601)
+				(width 0.254)
+			)
+			(gr_line
+				(start 4.275201 5.727207)
+				(end 6.256401 5.727207)
+				(width 0.254)
+			)
+			(gr_line
+				(start 6.256401 5.727207)
+				(end 6.256401 2.758201)
+				(width 0.254)
+			)
+			(gr_line
+				(start 6.256401 2.758201)
+				(end 8.212201 2.758201)
+				(width 0.254)
+			)
+			(gr_line
+				(start 8.212201 5.727207)
+				(end 8.212201 2.758201)
+				(width 0.254)
+			)
+			(gr_line
+				(start 8.212201 5.727207)
+				(end 10.091801 5.727207)
+				(width 0.254)
+			)
+			(gr_line
+				(start 10.091801 5.727207)
+				(end 10.091801 2.763004)
+				(width 0.254)
+			)
+		)
+		(uuid "89d11b55-698c-4f25-ad48-f366342cd7ae")
+	)
+	(embedded_fonts no)
+)

@@ -1612,9 +1612,9 @@
 		(at 148.59 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8bf8dbcc-796b-4e2b-9cd8-7796304e8dbf")
 		(property "Reference" "J501"
