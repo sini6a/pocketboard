@@ -1,62 +1,74 @@
 # Pocketboard
 
-### A Pocket-Friendly On-the-Go Keyboard 🖲️
+### A Pocket-Friendly On-the-Go Keyboard (now with Bluetooth!)
 
 ![Photo of the keyboard #1](assets/photos/IMG_20250427_114951.jpg)
 ![Photo of the keyboard #2](assets/photos/1.jpg)
 
-**Pocketboard** is a compact, versatile keyboard designed for IT technicians and professionals who need a portable and efficient input device.
+**Pocketboard** is a compact, versatile keyboard designed for IT technicians, tinkerers, and professionals who need a highly portable and efficient input device.
 
-**NOTE:** If you are building this keyboard and want to use KMK make sure to flash MicroPython for [Adafruit Feather RP2040](https://micropython.org/download/ADAFRUIT_FEATHER_RP2040/). After flashing just copy and paste the firmware located in the `firmware/kmk` folder. I recommend using the QMK firmware instead of KMK.
+---
 
-## Progress List:
+## 🚀 Project Status
 
-- [x] Firmware: Home row mods!
-- [x] Firmware: Layers
-- [x] Firmware: LED Control (On/Off)
-- [x] Hardware & Firmware: LCD!
-- [x] 3D: Case Design
+- [x] Firmware: Home row mods
+- [x] Firmware: Layer support
+- [ ] Hardware & Firmware: LCD integration
+- [ ] LCD: Battery percentage display
+- [x] 3D: Case design finalized
 
-## Features
+---
 
-- **USB Type-C Connector**: Modern and reliable connection for seamless usage.
-- **Miryoku Layout**: Optimized for productivity and efficient typing.
-- **LEDs and Display**: Equipped with programmable LEDs and a display which shows pressed key and small animation when idle.
+## ✨ Features
 
-## What's New?
+- **USB Type-C Connector** – Reliable modern connection for seamless usage and charging.  
+- **Miryoku Layout** – Optimized for productivity and efficient typing on a small form factor.  
+- **Bluetooth (nRF52840)** – Wireless connectivity powered by the Nordic nRF52840 MCU.  
+- **LCD Display (planned)** – Display keypresses and battery status.  
+- **Battery Support** – Internal battery with charging circuit for true portability.  
 
-Pocketboard builds upon the original **HandiPi** design with several upgrades and enhancements:
+---
 
-- **ATMega328 replaced with RP2040**: Improved performance and more flexibility with the powerful RP2040 microcontroller.
-- **LEDs for Illumination**: Added for better visibility.
-- **USB Type-C Connector**: Ensures ease of connectivity and compatibility with modern devices.
-- **LCD Support**: Added support for an LCD display for dynamic functionality. Tested and fully operational!
-- **SMD Components**: Transitioned from through-hole components to SMD for a more compact design.
+## 🆕 What’s New in This Revision?
 
-## Why Pocketboard?
+This revision builds upon the original **HandiPi** and **Pocketboard Rev. A** with major upgrades:
 
-Pocketboard is crafted for those who are often on the move, combining portability with practicality. Whether you're debugging systems or managing configurations, this handy keyboard ensures you're always prepared and comes handy to keep in your cargo pants or in your car.
+- **nRF52840 MCU** – Replaces RP2040 for enhanced performance and built-in Bluetooth LE.  
+- **Battery Management** – Integrated charger and fuel gauge for real battery monitoring.  
+- **USB-C Charging** – Power and charge with your everyday cable.  
+- **LCD Support** – Hardware ready for display integration (testing in progress).  
 
-## Project Structure
+---
 
-The project repository is structured as follows:
+## 🤔 Why Pocketboard?
 
-- **`kicad/`**: Contains PCB design files and schematics.
-- **`gerbers/`**: Includes Gerber files essential for manufacturing.
-- **`fimware/qmk`**: Includes Pocketboard firmware files. This folder should be copied to `qmk_firmware/keyboards`  before compiling.
-- **`fimware/kmk`**: Includes Pocketboard firmware files. This folder should be copied to your keyboard after flashing MicroPython. (Not fully implemented!)
+Pocketboard is built for people on the move. Whether you’re debugging servers, configuring devices, or just need a minimal keyboard always at hand, Pocketboard fits right in your **cargo pocket, backpack, or car**.
 
-The schematic is available in PDF format in the `kicad/` directory.
+---
 
-## Credits
+## 📂 Repository Structure
 
-Pocketboard is inspired by the **HandiPi** project by [brickbots](https://github.com/brickbots).
+- **`kicad/`** – PCB schematics and board files  
+- **`gerbers/`** – Gerber files for PCB manufacturing  
+- **`firmware/zmk-config/`** – ZMK firmware configuration and build files  
 
-## Contributing
+A schematic PDF is included in the `kicad/` directory for quick reference.
 
-We welcome contributions from the community! If you’re interested in helping with development, please:
+---
 
-1. Open an issue to discuss your ideas or proposed changes.
-2. After discussion, submit a pull request (PR) with your contribution.
+## 🙌 Credits
 
-Your feedback and suggestions are invaluable in making Pocketboard even better!
+Pocketboard was inspired by the brilliant **[HandiPi](https://github.com/brickbots)** project by *brickbots*.
+
+---
+
+## 🤝 Contributing
+
+We’d love your input! To contribute:
+
+1. Open an issue to share your idea or improvement.  
+2. After discussion, submit a pull request with your changes.  
+
+Your feedback helps make Pocketboard even better.  
+
+---
