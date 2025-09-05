@@ -2,8 +2,8 @@
 
 ### A Pocket-Friendly On-the-Go Keyboard 🖲️
 
-![Photo of the keyboard #1](assets/photos/IMG_20250427_114951.jpg)
-![Photo of the keyboard #2](assets/photos/1.jpg)
+![Photo of the keyboard #1](assets/photos/IMG_20250619_152017-Photoroom.webp)
+![Photo of the keyboard #2](assets/photos/IMG_20250427_114951.jpg)
 
 **Pocketboard** is a compact, versatile keyboard designed for IT technicians and professionals who need a portable and efficient input device.
 
