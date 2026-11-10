@@ -60,3 +60,9 @@ We welcome contributions from the community! If you’re interested in helping w
 2. After discussion, submit a pull request (PR) with your contribution.
 
 Your feedback and suggestions are invaluable in making Pocketboard even better!
+
+## Support
+
+If you find this project useful, please consider buying from us:
+
+<a href="https://pocketboard.io"><img src="https://img.shields.io/badge/Buy-pocketboard-FFDD00?style=for-the-badge" alt="Visit us at pocketboard.io" height="40"></a>
