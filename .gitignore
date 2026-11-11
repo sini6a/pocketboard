@@ -1,3 +1,4 @@
 # Production files
 gerbers/*.zip
 kicad/.history/
+FreeCAD/*.FCBak
